@@ -1,0 +1,214 @@
+body{
+    padding: 20px;
+    padding-bottom: 500px;
+}
+p{
+    color: green;
+    font-size: 30px;
+}
+
+/* Classes e Ids*/
+.meu-paragrafo{
+    background-color: black;
+    color: #fff;
+
+}
+
+#titulo-p{
+    background-color: blue;
+    color: #fff;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Todos os elementos, listas*/
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p,h1{
+    border-bottom: 1px solid red ;
+}   
+
+/* Cores */
+.nome-da-cor{
+    color: pink;
+}
+
+.hexa{
+    color: #464324;
+    background-color: violet;
+}
+
+.rgb{
+    color: rgb(red, green, blue);
+}
+
+/* Fontes */
+
+.serifada{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sem-serifa{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mono-espacada{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Size e Weight */
+
+.tamanho-fonte-grande{
+    font-size: 64px;
+}
+
+.tamanho-fonte-pequena{
+    font-size: 12px;
+}
+
+.peso-fonte{
+    font-weight: 700;
+}
+
+.italic-fonte{
+    font-style: italic;
+}
+
+/* Box Model */
+
+.box-model{
+    width: 200px;
+    height: 100px;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Propiedades de Texto */
+.alinhamento{
+    text-align: center;
+}
+
+.transform-minusculo{
+    text-transform: lowercase;
+}
+
+.transform-maiuscula{
+    text-transform: uppercase;
+}
+
+/* Espaçamento de Linhas e letras */
+.espacamento-texto{
+    width: 150px;
+    line-height: 40px;
+    letter-spacing: 8px;
+}
+
+
+/* Links */
+.decoration{
+    text-decoration: none;
+}
+
+.visitado:visited{
+    color: orange;
+}
+
+.estilo-hove:hover{
+    background-color: #1292ae;
+}
+
+/* Link em Buttons */
+
+.btn{
+    background-color: #34ae43;
+    border: 3px solid #234966;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    padding: 12px 7px;
+    text-align: center;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #234966;
+}
+
+/* List */
+
+.sem-bullets{
+    list-style: none;
+}
+
+/* Display */
+
+.inline{
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    display: inline-block;
+}
+
+.bloco{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Position Fixed */
+
+.elemento-fixo{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #1292ae;
+    border-bottom: 2px solid #342299;
+    color: #fff;
+}
+
+/* Pseudo Seleto -- Pseudo Class */
+
+.primeiro-elemento p:first-child{
+    color: purple;
+    font-weight: bold;
+}
+
+/* Pseudo elemento */
+.primeira-letra::first-letter{
+    font-size: 40px;
+    color: blue;
+    background-color: red;
+    padding: 20px;
+}
+
+/* Especifidade */
+
+h2{
+    color: red;
+}
+
+.Titulo{
+    color: green;
+}
+
+#preferido{
+    color: blue;
+}
+
+/* IMPORTANT */
+
+h2{
+    color: purple !important;
+}
